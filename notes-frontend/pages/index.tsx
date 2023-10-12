@@ -55,7 +55,7 @@ const NotesApp = () => {
     <ChakraProvider theme={customTheme}>
       <Box p={"7%"} bg="black" minH="100vh" display="flex" flexDir="column" alignItems="center">
         <ConnectWallet/>
-        <Heading as="h1" pt={5} mb={4}>
+        <Heading as="h1" pt={5} mb={4} color="white">
           The Notes Dapp
         </Heading>
         <VStack
